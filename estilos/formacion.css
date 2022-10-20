@@ -1,0 +1,55 @@
+.academic{
+    background-color:  #EAF2FD;
+}
+.academic__title{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem;
+}
+.academic__courses{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    align-items: center;
+   
+  
+}
+.academic__courses__box{
+    
+ display: flex;
+    padding: 3rem;
+    box-sizing: border-box;
+    align-items: center;
+  
+}
+.academic__courses__list{
+  background-color: #fff;
+  width: 24vw; 
+  height: 14rem;
+  padding: 1.5rem;
+}
+.ramos{
+    width: 5rem;
+}
+@media screen and (max-width: 425px) {
+    
+
+  
+    .academic__courses {
+ 
+         flex-direction: column;
+     }
+ 
+     .academic__courses__list {
+         display: flex;
+         flex-direction: column;
+ height: auto;
+ width: 100vw;
+ 
+     }
+ 
+     .academic__courses__item__img {
+         display: flex;
+         flex-direction: column;
+     }
+    }

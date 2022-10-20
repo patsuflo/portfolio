@@ -1,0 +1,31 @@
+
+
+ /*width: 100vw;
+   */
+
+.about__container{
+  display: flex; 
+  flex-direction: column;
+margin-top: 2rem;
+background-color: aliceblue;
+
+
+
+
+}
+.about__title{
+   text-align: center;
+    font-size: 2rem;
+}
+.about__paragraph{
+    padding: 3rem;
+    line-height: 2rem;
+     text-align: justify;
+     font-size:1.5rem ;
+     font-weight: 300;
+}
+.firma{
+    width: 12vw;
+    padding: 3rem;
+    
+}
